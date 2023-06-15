@@ -14,6 +14,7 @@ public class CashbackHackServiceTestjunit4 {
         int actual = service.remain(amount);
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void shouldAdd1() {
         CashbackHackService service = new CashbackHackService();
@@ -22,6 +23,7 @@ public class CashbackHackServiceTestjunit4 {
         int actual = service.remain(amount);
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void shouldAdd1000() {
         CashbackHackService service = new CashbackHackService();
@@ -30,6 +32,7 @@ public class CashbackHackServiceTestjunit4 {
         int actual = service.remain(amount);
         Assert.assertEquals(actual, expected);
     }
+
     @Test
     public void shouldAdd999() {
         CashbackHackService service = new CashbackHackService();
